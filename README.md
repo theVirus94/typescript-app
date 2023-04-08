@@ -20,7 +20,7 @@ declerations. All packages used can be found in the following JSON file:
 
 Make sure you have installed the Node.js and npm
 
-### npm install
+### `npm install`
 
 Move to the project directory:
 
