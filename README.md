@@ -1,46 +1,37 @@
-# Getting Started with Create React App
+# Front-end using React and TypeScript - Interview submission for RocketTutor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created using React and TypeScript to create a get request using the MOCK_DATA.json file
+created as a mock API. The promise-based HTTP client Axios is used to create the mock API and make a GET request on this.
+React Hooks are used to handle the request.
 
-## Available Scripts
+After execution, on the localhost [http://localhost:3000](http://localhost:3000) or [http://localhost:3000/mock](http://localhost:3000/mock),
+data will get rendered as a Table component, which was implemented and designed using React MaterialUI, which is a React component library.
 
-In the project directory, you can run:
+Users can sort all the instances by just clicking the arrow icon (next to the Time column) to sort the list ascending or descending by
+the Time column as expected. Refreshing the page, will again render the data with the non-sorted version.
+
+For your interest, during my development project, this was first implemented fully in JavaScript and converted to TypeScript by
+adding corresponding type annotations. This was a learning process of TypeScript, so I might forgot some type
+declerations. All packages used can be found in the following JSON file:
+
+### `typescript-app/package.json`
+
+## Execution
+
+Move to the project directory:
+
+### `cd typescript-app`
+
+Then execute the following command to start the project:
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) or [http://localhost:3000/mock](http://localhost:3000/mock) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+My best wishes,
+Caner Karaoğlu
+Technical University of Munich, Informatics, M.Sc.
