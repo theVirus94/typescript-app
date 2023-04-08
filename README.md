@@ -18,6 +18,10 @@ declerations. All packages used can be found in the following JSON file:
 
 ## Execution
 
+Make sure you have installed the Node.js and npm
+
+### npm install
+
 Move to the project directory:
 
 ### `cd typescript-app`
@@ -32,6 +36,6 @@ Open [http://localhost:3000](http://localhost:3000) or [http://localhost:3000/mo
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-My best wishes,
-Caner Karaoğlu
+My best wishes, \
+Caner Karaoğlu \
 Technical University of Munich, Informatics, M.Sc.
